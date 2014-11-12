@@ -1,4 +1,26 @@
-/* Star Card's custom styles */
+/*
+ *  
+ * Custom Bootstrap styling */
+ a.alt {
+    color: #e61267;
+    text-decoration: none;
+}
+a.alt:hover, a.alt:focus {
+    color: #c61059;
+    text-decoration: underline;
+}
+a.alt:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.img-thumbnail {
+    padding: 2px;
+    max-width: initial;
+}
+/*
+ *  
+ * Star Card's custom styles */
 
 /* navbar */
  .navbar-default {
