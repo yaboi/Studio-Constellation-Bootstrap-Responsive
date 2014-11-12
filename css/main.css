@@ -1,3 +1,44 @@
-/* ==========================================================================
-   Star Card's custom styles
-   ========================================================================== */
+/* Star Card's custom styles */
+ .navbar-default {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    font-size: 58px;
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar-top {
+    position: absolute;
+    right: 30px;
+}
+.navbar-top>.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+}
+.navbar-top>.navbar-nav>li:not(:last-child)>a {
+    border-right: 1px solid #ffffff;
+}
+.navbar-top>.navbar-nav {
+    background-color: #28a4c9;
+    padding:5px;
+}
+.navbar-top .navbar-right {
+    margin-right: 10px;
+}
+.navbar-bottom>.navbar-nav {
+    margin-right: 25px;
+}
+.navbar-bottom>.navbar-nav>li>a {
+    padding:0 15px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.navbar-bottom>.navbar-nav>li:not(:last-child)>a {
+    border-right: 1px solid #ccc;
+}
