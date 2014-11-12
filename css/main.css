@@ -1,7 +1,14 @@
 /*
  *  
  * Custom Bootstrap styling */
- a.alt {
+ @font-face {
+    font-family:'Trajan Pro Bold';
+    src: url('../fonts/trajan_pro_bold.eot');
+    src: url('../fonts/trajan_pro_bold.eot?#iefix') format('embedded-opentype'), url('../fonts/trajan_pro_bold.svg#Trajan Pro Bold') format('svg'), url('../fonts/trajan_pro_bold.woff') format('woff'), url('../fonts/trajan_pro_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+a.alt {
     color: #e61267;
     text-decoration: none;
 }
@@ -74,4 +81,7 @@ a.alt:focus {
     border-radius: 0;
     background: top center no-repeat url('../img/header_bg.png');
     background-size: cover;
+}
+.container .jumbotron h3 {
+    font-family:'Trajan Pro Bold', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
