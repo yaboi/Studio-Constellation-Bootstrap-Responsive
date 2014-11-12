@@ -76,12 +76,53 @@ a.alt:focus {
 .navbar-bottom>.navbar-nav>li:not(:last-child)>a {
     border-right: 1px solid #ccc;
 }
-/* jumbotron */
- .container .jumbotron {
+/* Super Hero (jumbotron) */
+ .container .jumbotron, .container-fluid .jumbotron {
     border-radius: 0;
     background: top center no-repeat url('../img/header_bg.png');
     background-size: cover;
+    border: 10px solid #f9f9f9;
 }
-.container .jumbotron h3 {
+.container .jumbotron h3, .container-fluid .jumbotron h3 {
     font-family:'Trajan Pro Bold', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.container .jumbotron .well, .container-fluid .jumbotron .well {
+    background-image: none;
+    background-color: rgba(255, 255, 255, .5);
+    border: none;
+    box-shadow: none;
+}
+.container .jumbotron .checkbox-inline, .container-fluid .jumbotron .checkbox-inline {
+    padding: 0 20px 10px 20px;
+}
+.container .jumbotron .form-control, .container-fluid .jumbotron .form-control {
+    margin-bottom: 10px;
+}
+/* Popular Cards */
+ .popular_cards {
+    width: 96%;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+.panel {
+    box-shadow: none;
+    background: transparent;
+}
+.panel-default {
+    border: none;
+}
+.panel-default>.panel-heading {
+    background-image: none;
+    background-color: #f6f6f6;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.panel-default>.panel-body {
+    background: -moz-linear-gradient(top, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(top, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(top, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#00ffffff', GradientType=0);
 }
