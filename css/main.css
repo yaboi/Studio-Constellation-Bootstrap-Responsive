@@ -1,8 +1,13 @@
 /* Star Card's custom styles */
+
+/* navbar */
  .navbar-default {
     border: none;
     border-radius: 0;
     box-shadow: none;
+}
+.navbar {
+    margin-bottom: 0;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     font-size: 58px;
@@ -35,10 +40,16 @@
 }
 .navbar-bottom>.navbar-nav>li>a {
     padding:0 15px;
-    margin-top: 75px;
+    margin-top: 65px;
     margin-bottom: 5px;
     font-size: 16px;
 }
 .navbar-bottom>.navbar-nav>li:not(:last-child)>a {
     border-right: 1px solid #ccc;
+}
+/* jumbotron */
+ .container .jumbotron {
+    border-radius: 0;
+    background: top center no-repeat url('../img/header_bg.png');
+    background-size: cover;
 }
