@@ -1,14 +1,14 @@
 app
 test
-.tmp
-.sass-cache
 .bowerrc
 .gitattributes
 .jshintrc
-.yo-rc.json
-bower.json
 Gruntfile.js
 package.json
+bower.json
+.tmp
+.sass-cache
+.yo-rc.json
 
 # Ignore docs files
 _gh_pages
@@ -50,7 +50,7 @@ validation-report.json
 validation-status.json
 
 # Folders to ignore
-bower_components
+/bower_components
 node_modules
 
 # Codio
